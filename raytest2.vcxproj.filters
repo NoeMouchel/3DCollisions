@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Collision2.cpp">
+      <Filter>Source\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Range2.cpp">
+      <Filter>Source\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Referential2.cpp">
+      <Filter>Source\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Intersection3.cpp">
+      <Filter>Source\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo\Camera.cpp">
+      <Filter>Source\Demo3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo\main.cpp">
+      <Filter>Source\Demo3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo\Scene.cpp">
+      <Filter>Source\Demo3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo\Draw.cpp">
+      <Filter>Source\Demo3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Matrix.cpp">
+      <Filter>Source\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo\DemoFunction.cpp">
+      <Filter>Source\Demo3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Shapes3.cpp">
+      <Filter>Source\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Quaternion.cpp">
+      <Filter>Source\Quaternion</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Vector4.cpp">
+      <Filter>Source\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vector3.cpp">
+      <Filter>Source\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vector2.cpp">
+      <Filter>Source\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Collider3.cpp">
+      <Filter>Source\3D\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RigidBody3.cpp">
+      <Filter>Source\3D\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo\SceneObject.cpp">
+      <Filter>Source\Demo3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Transform3.cpp">
+      <Filter>Source\3D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{0e178d5c-1bac-49f7-8c7c-07264c0a5dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{e38422b8-11c5-4d2a-8880-84d9e0cc4a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\2D">
+      <UniqueIdentifier>{26ddc217-51e3-4d50-837b-2f9c4414eb18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\3D">
+      <UniqueIdentifier>{24c1221b-d6d4-4e79-9597-7d621e5115db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\2D">
+      <UniqueIdentifier>{6c80b060-4ef8-4bf4-bb5d-ca92e5ea53ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\3D">
+      <UniqueIdentifier>{81c99663-c774-46cb-9591-b55d9f2d34e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Matrix">
+      <UniqueIdentifier>{2c9aab37-29ab-4241-8993-14da5e5ddbbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Matrix">
+      <UniqueIdentifier>{fcac2b43-78da-41ca-9349-2fc56b3df7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Demo3D">
+      <UniqueIdentifier>{b21764a0-ea4b-47d2-acb3-04561e1797b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Demo3D">
+      <UniqueIdentifier>{07195eb0-f02e-425e-bc6c-8c2a5ab0052b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Utils">
+      <UniqueIdentifier>{9f6520ed-d179-49b2-a144-13ce085eec0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{a1efe4ad-b32e-43dd-9c25-61f065cc0061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Quaternion">
+      <UniqueIdentifier>{684b93ae-c8ca-4967-8833-6e75ccfd9386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Quaternion">
+      <UniqueIdentifier>{442a7e24-5940-471f-844a-dc8d159542e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Vectors">
+      <UniqueIdentifier>{eeaaec16-3583-47b0-bd2f-823190356a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Vectors">
+      <UniqueIdentifier>{4bfe8f8c-8791-4547-9e42-dcfbe66e0898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\3D\Physics">
+      <UniqueIdentifier>{801fd859-a712-4443-b428-64f8a4a33376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\3D\Physics">
+      <UniqueIdentifier>{d770d75a-f5ba-463e-881e-1669d7323468}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Collision2.h">
+      <Filter>Include\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Primitives2.h">
+      <Filter>Include\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Range2.h">
+      <Filter>Include\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Referential2.h">
+      <Filter>Include\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Toolbox2D.h">
+      <Filter>Include\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Intersection3.h">
+      <Filter>Include\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo\Camera.h">
+      <Filter>Include\Demo3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo\Scene.h">
+      <Filter>Include\Demo3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo\Draw.h">
+      <Filter>Include\Demo3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo\DemoFunction.h">
+      <Filter>Include\Demo3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Shapes3.h">
+      <Filter>Include\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils.h">
+      <Filter>Include\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Quaternion.h">
+      <Filter>Include\Quaternion</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Matrix.h">
+      <Filter>Include\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Vector4.h">
+      <Filter>Include\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Vector2.h">
+      <Filter>Include\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Vector3.h">
+      <Filter>Include\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RigidBody3.h">
+      <Filter>Include\3D\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Collider3.h">
+      <Filter>Include\3D\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo\SceneObject.h">
+      <Filter>Include\Demo3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Transform3.h">
+      <Filter>Include\3D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Matrix.inl">
+      <Filter>Source\Matrix</Filter>
+    </None>
+    <None Include="Src\Utils.inl">
+      <Filter>Source\Utils</Filter>
+    </None>
+    <None Include="Src\Vector4.inl">
+      <Filter>Source\Vectors</Filter>
+    </None>
+    <None Include="Src\Quaternion.inl">
+      <Filter>Source\Quaternion</Filter>
+    </None>
+    <None Include="Src\Vector3.inl">
+      <Filter>Source\Vectors</Filter>
+    </None>
+  </ItemGroup>
+</Project>
